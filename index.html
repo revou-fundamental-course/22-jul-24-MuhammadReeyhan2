@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo">
-            <h1>Portofolio.</h1>
+            <h1>GroceryStore.</h1>
         </div>
         <nav>
             <ul>
@@ -41,17 +41,26 @@
             <div class="right-form">
                 <h2>Contact Us</h2>
                 <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
-                <form>
+                <form id="contactForm" onsubmit="return validateForm()">
                     <label for="name">Your Name:</label>
                     <input type="text" id="name" name="name" placeholder="First and last name">
+                    <div class="error" id="nameError"></div>
                     
                     <label for="email">Email Address:</label>
                     <input type="email" id="email" name="email" placeholder="example@email.com">
+                    <div class="error" id="emailError"></div>
                     
                     <label for="interest">What are you interested in?</label>
                     <select id="interest" name="interest">
                         <option value="">Select option</option>
+                        <option value="Fresh Vegetable">Fresh Vegetable</option>
+                        <option value="Fresh Fruit">Fresh Fruit</option>
+                        <option value="Instant Delivery">Instant Delivery</option>
+                        <option value="Kitchen Ingredient">Kitchen Ingredient</option>
+                        <option value="Kitchen Set">Kitchen Set</option>
+                        <option value="Bundling Set">Bundling Set</option>
                     </select>
+                    <div class="error" id="interestError"></div>
                     
                     <button type="submit">SEND</button>
                 </form>
@@ -133,9 +142,10 @@
                 <a href="#">Terms of Service</a>
                 <a href="#">Privacy Policy</a>
             </div>
-            <p class="copyright" style="margin-left: 24% ;">&copy; 2019 Portofolio</p>
+            <p class="copyright" style="margin-left: 24% ;">&copy; 2024 Grocery Store</p>
         </footer>
     </div>
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>

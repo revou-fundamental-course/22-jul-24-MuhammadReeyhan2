@@ -22,7 +22,7 @@ header {
   font-family: "Moqups", sans-serif;
   margin-left: 15%;
   font-size: 24px;
-  color: #333;
+  color: #ffdb00;
 }
 
 nav ul {
@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #f0f0f0;
+  background-color: #ffdb00;
 }
 
 main {
@@ -86,8 +86,9 @@ main {
   padding: 20px;
   justify-content: center;
   justify-items: center;
-  background-color: #e9ecef;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #ff8f00;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 img {
@@ -120,7 +121,7 @@ h5 {
 .author-img {
   width: 50px;
   height: 50px;
-  background-color: #e9ecef;
+  background-color: #ffdb00;
   border-radius: 50%;
   margin-bottom: 10px;
 }
@@ -133,6 +134,13 @@ h5 {
   font-size: 11px;
 }
 
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 .right-form h2 {
   font-size: 20px;
   color: #333;
@@ -140,7 +148,7 @@ h5 {
 }
 
 .right-form p {
-  color: #6c757d;
+  color: #333;
   font-size: 14px;
   width: 70%;
   margin-bottom: 65px;
@@ -235,7 +243,7 @@ form button:hover {
 }
 
 .section-title {
-  background-color: #e9eef3;
+  background-color: #ffdb00;
   text-align: center;
   padding: 50px 0;
 }
@@ -260,7 +268,7 @@ form button:hover {
 .package {
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   text-align: left;
   padding: 20px;
   flex-basis: 30%;
@@ -270,7 +278,7 @@ form button:hover {
 .icon {
   width: 50px;
   height: 50px;
-  background-color: #e9ecef;
+  background-color: #ffdb00;
   border-radius: 50%;
   margin-top: 15px;
 }
